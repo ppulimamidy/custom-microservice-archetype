@@ -1,0 +1,53 @@
+spring:
+  data:
+    mongodb:
+      uri:  mongodb://localhost:27017/test   
+  kafka:
+    bootstrap-servers: localhost:9092
+
+app:
+  cpd:
+    topic:
+      disposition: dispositionNote
+
+logging:
+  file: /home/pranathi/tools/logs/application-debug.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    com.cotiviti.enterprise.cpd: INFO
+info:
+  app:
+    name: CPD Microsewrvices Application
+    description:  This is a template for working microservices with kafka and mongo
+    version: 0.0.1-SNAPSHOT
+ 
+management:
+  health:
+    jms:
+      enabled: true
+  metrics:
+    enable: 
+      all: true
+    binders:
+      jvm:
+        enabled: true
+  endpoint:
+    beans:
+      enabled: true
+    configprops:
+      enabled: true
+    metrics:
+      enabled: true
+    env:
+      enabled: true
+    sessions:
+      enabled: true
+    logfile:
+      enabled: true
+    health:
+      show-details: always
+  
