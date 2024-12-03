@@ -1,0 +1,6 @@
+site_name: 'Custom Microservice Docs'
+site_description: 'Documentation for Custom Microservice'
+nav:
+  - Home: index.md
+plugins:
+  - techdocs-core
