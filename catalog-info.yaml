@@ -6,6 +6,6 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:./archetype/docs  # Correct reference format
 spec:
-  type: service
-  lifecycle: dev
-  owner: user-team
+  type: service            # Required field under 'spec'
+  lifecycle: dev           # Required field under 'spec'
+  owner: user-team         # Required field under 'spec'
