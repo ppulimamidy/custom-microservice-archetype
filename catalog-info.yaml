@@ -4,7 +4,7 @@ metadata:
   name: custom-microservice-archetype
   description: Sample service for creating a archetype microservice with all the plumbing needed
   annotations:
-    backstage.io/techdocs-ref: URL: https://github.com/ppulimamidy/custom-microservice-archetype/tree/master/archetype/docs
+    backstage.io/techdocs-ref: url:https://github.com/ppulimamidy/custom-microservice-archetype/tree/master/archetype/docs
   type: service
   lifecycle: dev
   owner: user-team
