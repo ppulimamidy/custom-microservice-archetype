@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: custom-microservice-archetype
   description: Sample service for creating a archetype microservice with all the plumbing needed
+  annotations:
+    backstage.io/techdocs-ref: https://github.com/ppulimamidy/custom-microservice-archetype/blob/master/README.md
 spec:
   type: service
   lifecycle: dev
