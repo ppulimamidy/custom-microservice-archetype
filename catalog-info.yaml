@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test-backend-service
-  description: Sample service for testing GitHub integration
+  name: custom-microservice-archetype
+  description: Sample service for creating a archetype microservice with all the plumbing needed
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: dev
   owner: user-team
