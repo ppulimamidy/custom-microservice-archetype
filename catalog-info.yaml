@@ -2,9 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: custom-microservice-archetype
-  description: Sample service for creating a archetype microservice with all the plumbing needed
+  description: Sample service for creating an archetype microservice with all the plumbing needed
   annotations:
-    backstage.io/techdocs-ref: dir:./archetype/docs
+    backstage.io/techdocs-ref: dir:./archetype/docs  # Correct reference format
+spec:
   type: service
   lifecycle: dev
   owner: user-team
